@@ -1,34 +1,24 @@
 import "../../assets/css/nav.css";
+import { Link } from "react-router-dom";
 
-/*
- <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-      </ul>
-    </nav>
- */
 
 const Navigation = () => {
   return (
     <>
-    <nav className="navbar">
       <nav className="navbar">
         <ul className="nav-list">
           <li>
-            <a href="">
+            <Link to="/">
               <img src="" alt="Home Page" className="my-img" />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="">
+            <Link to="/shop">
               <img src="" alt="Shop" className="my-img" />
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
-    </nav>
     </>
   );
 };
