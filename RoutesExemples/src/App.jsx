@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Navigation />
         <Routes>
-          <Route path="/" exact element={""} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
         </Routes>

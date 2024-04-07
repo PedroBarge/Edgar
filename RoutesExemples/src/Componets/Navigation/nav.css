@@ -9,21 +9,19 @@
   padding: 0;
   margin: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 
-.nav-list li {
-  margin: 5px;
-}
-
-.nav-list li {
+.nav-list a {
   display: flex;
   color: rgb(223, 120, 88);
   text-decoration: none;
   padding: 15px 20px;
   transition: background-color 0.3s ease;
   border-radius: 15px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-list li :hover {
