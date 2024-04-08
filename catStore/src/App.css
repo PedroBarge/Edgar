@@ -1,0 +1,25 @@
+#root {
+ margin: 0%;
+ padding: 0%;
+ height: 100%;
+ width: 100%;
+}
+.navMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.iconHome{
+    width: 10%;
+    height: 100%;
+}
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
