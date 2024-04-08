@@ -1,7 +1,7 @@
 import "/src/App.css";
 
-import Card from "../../Componets/Card/Card";
-import catJson from "../../../catsDb.json";
+import Card from "../../../Componets/Card/Card";
+import catJson from "../../../../catsDb.json";
 import { useState, useEffect } from "react";
 
 function Shop() {

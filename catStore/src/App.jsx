@@ -1,9 +1,9 @@
 import "./App.css";
 
 import Navigation from "./Componets/Navigation/Navigation";
-import Shop from "./Routes/page/Shop";
-import Home from "./Routes/page/Home";
-import About from "./Routes/page/About";
+import Shop from "./Routes/page/Shop/Shop";
+import Home from "./Routes/page/Home/Home";
+import About from "./Routes/page/About/About";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //----------------------------------------------------------------
 import IconHome from "./assets/img/logo.png";
