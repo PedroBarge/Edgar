@@ -12,13 +12,15 @@ const Card = ({ image, race, name, color, weight, age, location, price }) => {
     <>
       <div className="container">
         <div className="cardsArea">
-          
           <div className="imageCard">
             <img src={image} alt={name} />
+          </div>
+
+          <div className="infoCard">
             <h2>{name}</h2>
             <p>Race: {race}</p>
           </div>
-
+          
           <button onClick={handleClick}>
             {showInfo ? "Hide Info" : "More Info"}
           </button>

@@ -1,4 +1,3 @@
-import "/src/App.css";
 
 import Card from "../../../Componets/Card/Card";
 import catJson from "../../../../catsDb.json";

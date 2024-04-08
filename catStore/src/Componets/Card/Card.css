@@ -5,10 +5,7 @@
   justify-content: center;
   margin-bottom: 5%;
 }
-.imageCard {
-  height: 100%;
-  width: 65%;
-}
+
 .cardsArea {
   height: 100%;
   width: 50%;
@@ -20,4 +17,17 @@
   justify-content: center;
   align-items: center;
   padding: 2%;
+}
+
+.imageCard {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.infoCard {
+  margin: 0%;
+  padding: 0%;
 }
