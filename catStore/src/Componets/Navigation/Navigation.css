@@ -7,3 +7,14 @@
 .ulList li:hover{
     background-color: white;
 }
+
+.ulList {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px; 
+    column-gap: 1em;
+}
+
+.navMain{
+    display: flex;
+}

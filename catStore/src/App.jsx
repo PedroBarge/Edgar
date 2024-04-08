@@ -1,21 +1,17 @@
 import "./App.css";
 
+import Header from "./Componets/Header/Header";
 import Navigation from "./Componets/Navigation/Navigation";
 import Shop from "./Routes/page/Shop/Shop";
 import Home from "./Routes/page/Home/Home";
 import About from "./Routes/page/About/About";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //----------------------------------------------------------------
-import IconHome from "./assets/img/logo.png";
 
 function App() {
   return (
     <>
-      <nav className="navMain">
-        <img className="iconHome" src={IconHome} alt="Unique Logo" />
-        <h1>Unique Cats Store</h1>
-      </nav>
-      <h3 className="slogan">MIAUU</h3>
+      <Header />
       <Router>
         <Navigation />
         <Routes>

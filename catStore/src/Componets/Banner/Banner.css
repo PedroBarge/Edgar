@@ -1,0 +1,48 @@
+.mainBanner {
+  height: 100%;
+  width: 100%;
+  background: rgb(64,120,138);
+  background: linear-gradient(90deg, rgba(64,120,138,1) 0%, rgba(139,171,179,1) 41%, rgba(220,169,164,1) 100%); 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+    margin: 0%;
+  padding: 0%;
+  width: 25%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+.phone {
+  margin: 0%;
+  padding: 0%;
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right {
+  width: 25%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.imgPhone {
+  width: 25%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin: 0%;
+  padding: 0%;
+}
