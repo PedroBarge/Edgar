@@ -10,7 +10,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Shop from "./Routes/jsx/Shop";
 import Home from "./Routes/jsx/Home";
-import ShopCat from "./Routes/jsx/ShopCat";
 //----------------------------------------------------------------
 
 function App() {
@@ -23,9 +22,8 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/home" element={<ShopCat />} />
         </Routes>
       </Router>
     </>

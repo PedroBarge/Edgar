@@ -15,10 +15,13 @@ const Card = ({ image, race, name, color, weight, age, location, price }) => {
           <div className="imageCard" onClick={handleClick}>
             <img src={image} alt={name} />
             <h2>{name}</h2>
+            <p>Race: {race}</p>
           </div>
+          <button onClick={handleClick}>
+            {showInfo ? "Hide Info" : "More Info"}
+          </button>
           {showInfo && (
             <div className="info">
-              <p>Race: {race}</p>
               <p>Color: {color}</p>
               <p>Weight: {weight}</p>
               <p>Age: {age}</p>
