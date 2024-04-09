@@ -8,12 +8,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  gap: 1rem;
+
+  font-size: 2rem;
 }
 
 .news {
   border: 5px solid black;
-
-  margin: 1%;
   padding: 1%;
   width: 25%;
   display: flex;

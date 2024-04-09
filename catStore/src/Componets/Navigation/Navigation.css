@@ -11,16 +11,18 @@
 .ulList {
   display: flex;
   flex-direction: row;
-  margin-right: 10px;
+
   column-gap: 1em;
 }
 
 .navMain {
   display: flex;
+  gap: 1%;
 }
 
 .menuImg {
-  margin: 1%;
+  width: 5rem;
+  padding-right: 15%;
 }
 
 .line{

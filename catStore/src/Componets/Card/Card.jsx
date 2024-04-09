@@ -10,9 +10,9 @@ const Card = ({ image, race, name, color, weight, age, location, price }) => {
   };
   return (
     <>
-      <div className="container">
+      <div className="card-container">
+        
         <div className="cardsArea">
-
           <div className="infoCard">
             <h2>{name}</h2>
             <img className="imageCard" src={image} alt={name} />
