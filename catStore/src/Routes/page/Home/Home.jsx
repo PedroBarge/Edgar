@@ -1,13 +1,13 @@
 import "/src/App.css";
 
 import Banner from "/src/Componets/Banner/Banner.jsx"
+import TLDR from "../../../Componets/TLDR/Tldr";
 function Home() {
   return (
     <>
-      
       <Banner/>
-      <h1>noticias & imagens</h1>
-      <h1>comentarios</h1>
+      <TLDR/>
+      <h1>comentários</h1>
     </>
   );
 }

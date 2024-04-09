@@ -1,0 +1,28 @@
+.footer {
+  background: rgb(64, 120, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(64, 120, 138, 1) 0%,
+    rgba(139, 171, 179, 1) 41%,
+    rgba(220, 169, 164, 1) 100%
+  );
+}
+
+.footerLogoPlace{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLogo {
+  width: 10%;
+}
+
+.footerText {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

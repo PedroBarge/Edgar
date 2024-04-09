@@ -5,6 +5,7 @@ import Navigation from "./Componets/Navigation/Navigation";
 import Shop from "./Routes/page/Shop/Shop";
 import Home from "./Routes/page/Home/Home";
 import About from "./Routes/page/About/About";
+import Footer from "./Componets/Footer/Fotoer.jsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //----------------------------------------------------------------
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/shop" element={<Shop />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 }

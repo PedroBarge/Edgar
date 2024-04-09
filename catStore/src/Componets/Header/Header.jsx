@@ -5,9 +5,9 @@ const Header = () => {
     <>
       <nav className="navMain">
         <img className="iconHome" src={IconHome} alt="Unique Logo" />
-        <h1>Unique Cats Store</h1>
+        <h1>Uiniqaue Cats Store</h1>
       </nav>
-      <h3 className="slogan">MIAUU</h3>
+      <h3 className="slogan">“Enhancing the Journey with Your Pet”</h3>
     </>
   );
 };

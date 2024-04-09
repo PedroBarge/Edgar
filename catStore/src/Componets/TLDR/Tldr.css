@@ -1,0 +1,63 @@
+.mainTldr {
+  margin-top: 2%;
+  padding: 0%;
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news {
+  border: 5px solid black;
+
+  margin: 1%;
+  padding: 1%;
+  width: 25%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  background: rgb(64, 120, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(64, 120, 138, 1) 0%,
+    rgba(139, 171, 179, 1) 41%,
+    rgba(220, 169, 164, 1) 100%
+  );
+  color: black;
+}
+
+.imgCatsSphynx {
+  border: 5px solid black;
+
+  margin: 1%;
+  padding: 0%;
+  width: 25%;
+  height: 25vh;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+  color: black;
+  background-image:url('/src/assets/img/shynx.jpg');
+  background-size: cover;
+}
+
+.img3Cats {
+    border: 5px solid black;
+  
+    margin: 1%;
+    padding: 0%;
+    width: 25%;
+    height: 25vh;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+    color: black;
+    background-image:url('/src/assets/img/cats.jpg');
+    background-size: cover;
+  }
