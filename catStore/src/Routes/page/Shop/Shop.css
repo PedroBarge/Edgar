@@ -1,0 +1,17 @@
+.pagination {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+  padding: 5px;
+  gap: 5px;
+}
+
+.active {
+  background-color: white;
+}
+.paginationKey:hover {
+  cursor: pointer;
+}

@@ -1,19 +1,18 @@
 .ulList {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
-}
 
-.ulList li:hover {
-  background-color: white;
-}
-
-.ulList {
   display: flex;
   flex-direction: row;
 
-  column-gap: 1em;
+  column-gap: 2em;
 }
+
+.ulList li:hover {
+  scale: 1.2;
+}
+
 
 .navMain {
   display: flex;

@@ -1,24 +1,20 @@
-.card-container {
+.mainCnt {
   width: 100%;
   height: 100%;
 
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: stretch; 
-  row-gap:40px;
+  align-items: stretch;
+  row-gap: 10px;
   column-gap: 20px;
   font-size: 2rem;
 
   padding-bottom: 25px;
 }
 
-
-.cardsArea {
-  height: 20%;
-  width: 15%;
-
+.catInfoArea {
   background: rgb(64, 120, 138);
   background: linear-gradient(
     180deg,
@@ -26,26 +22,12 @@
     rgba(139, 171, 179, 1) 41%,
     rgba(220, 169, 164, 1) 100%
   );
+  padding: 25px;
+}
 
-  color: black;
-  border: 5px solid black;
+.moreInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2%;
-}
-
-.imageCard {
-  height: 150px;
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-}
-
-.infoCard {
-  z-index: 100;
-  margin: 0%;
-  padding: 0%;
 }
