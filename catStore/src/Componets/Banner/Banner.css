@@ -11,8 +11,9 @@
     rgba(139, 171, 179, 1) 41%,
     rgba(220, 169, 164, 1) 100%
     
+    
   );
-
+  font-size: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
