@@ -21,8 +21,8 @@ const Navigation = () => {
             </Link>
           </li>
           <li>
-            <Link to="/shop">
-              <img className="menuImg" src={ShopBtn} alt="Adopt" />
+            <Link to="/shop?page=1">
+              <img className="menuImg" src={ShopBtn} alt="Shop" />
             </Link>
           </li>
         </ul>

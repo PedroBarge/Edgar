@@ -10,6 +10,9 @@ const CatInfo = () => {
 
   const [cat, setCat] = useState(null);
 
+  const currentPage = sessionStorage.getItem("currentPage");
+
+
   useEffect(() => {
     const catFound = Object.values(CatJson).find((cat) => cat.name === name);
     setCat(catFound);
@@ -29,7 +32,7 @@ const CatInfo = () => {
             <p>Age: {cat.age}</p>
             <p>Location: {cat.location}</p>
             </div>
-            <Link to="/shop">
+            <Link to={`/shop?page=${currentPage}`}>
               <button>Return</button>
             </Link>
           </div>
