@@ -15,7 +15,7 @@
 }
 
 .news {
-  border: 5px solid black;
+  border: 5px solid white;
   padding: 1%;
   width: 25%;
   display: flex;
@@ -29,11 +29,11 @@
     rgba(139, 171, 179, 1) 41%,
     rgba(220, 169, 164, 1) 100%
   );
-  color: black;
+  color: white;
 }
 
 .imgCatsSphynx {
-  border: 5px solid black;
+  border: 5px solid white;
 
   margin: 1%;
   padding: 0%;
@@ -43,13 +43,13 @@
   justify-content: right;
   align-items: right;
   flex-direction: column;
-  color: black;
+  color: white;
   background-image:url('/src/assets/img/shynx.jpg');
   background-size: cover;
 }
 
 .img3Cats {
-    border: 5px solid black;
+    border: 5px solid white;
   
     margin: 1%;
     padding: 0%;

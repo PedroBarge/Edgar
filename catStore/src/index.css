@@ -4,12 +4,12 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: black;
+  color: white;
 
 
   background-image: url('https://wallpapers.com/images/hd/cartoon-cats-minimalist-art-fjgejr6qeu52x6rf.jpg');
-  background-color: rgba(255, 255, 255, 0.645); /* adiciona uma camada preta com transparência */
-  background-blend-mode: multiply; /* combina a imagem de fundo com a cor de fundo */
+  background-color: rgba(255, 255, 255, 0.738); 
+  background-blend-mode: multiply; 
   
   
 

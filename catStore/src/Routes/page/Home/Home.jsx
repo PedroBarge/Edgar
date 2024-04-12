@@ -1,24 +1,20 @@
 import "/src/App.css";
+import './Home.css';
 
 import Banner from "/src/Componets/Banner/Banner.jsx";
 import TLDR from "../../../Componets/TLDR/Tldr";
-import Coments from "../../../Componets/Coments/Coments";
+import Comments from '../../../Componets/Comments/Comments.jsx';
 
 function Home() {
   return (
     <>
       <Banner />
       <TLDR />
-      <div className="container">
-      <Coments
-        name={"Name"}
-        avaliation={"4/5"}
-        description={
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
-        }
-      />
-      
+      <div className="comentsArea">
+        <Comments/>
       </div>
+
+      
     </>
   );
 }

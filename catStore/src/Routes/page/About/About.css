@@ -3,7 +3,7 @@
   margin: 0 auto;
   max-width: 600px;
 
-  color: black;
+  color: white;
 
   background: rgb(64, 120, 138);
   background: linear-gradient(
@@ -13,7 +13,7 @@
     rgba(220, 169, 164, 1) 100%
   );
 
-  border: 5px solid black;
+  border: 5px solid white;
   margin-bottom: 2%;
   margin-top: 2%;
 

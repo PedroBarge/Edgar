@@ -1,0 +1,27 @@
+
+.mainAvaliaton {
+  width: auto;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+
+  margin: 5px;
+  background: rgb(64, 120, 138);
+  background: linear-gradient(
+    180deg,
+    rgba(64, 120, 138, 1) 0%,
+    rgba(139, 171, 179, 1) 41%,
+    rgba(220, 169, 164, 1) 100%
+  );
+  padding: 25px;
+}
+
+
+.avaliationArea {
+  width: 100%;
+}
+
+.descriptionArea {
+ width: 100%;
+}
+ 
