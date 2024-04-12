@@ -14,7 +14,6 @@ const Tldr = () => {
             </li>
             <li>-Parents have genetic tests for breed diseases.</li>
             <li>-Born on 11/03/23 and raised in a family environment.</li>
-            <li>Price: €550.00.</li>
           </ul>
         </div>
 
@@ -31,7 +30,6 @@ const Tldr = () => {
               owner.
             </li>
             <li>-Age: 3 months.</li>
-            <li>-Price: €350.00.</li>
           </ul>
 
         </div>
