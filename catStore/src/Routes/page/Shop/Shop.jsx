@@ -5,7 +5,7 @@ import "./Shop.css";
 import { Link } from "react-router-dom";
 
 function Shop() {
-  const itemsPerPage = 4;
+  const itemsPerPage = 8;
   const [currentPage, setCurrentPage] = useState(1);
   const [catInfo, setCatInfo] = useState([]);
 
