@@ -45,16 +45,16 @@ function Shop() {
       <div className="pagination">
         <Link to={`/shop?page=${currentPage - 1}`}>
           <button onClick={prevPage} disabled={currentPage === 1}>
-            Anterior
+            Previous
           </button>
         </Link>
-        <span>Página {currentPage}</span>
+        <span>Page {currentPage}</span>
         <Link to={`/shop?page=${currentPage + 1}`}>
           <button
             onClick={nextPage}
             disabled={indexOfLastItem >= catInfo.length}
           >
-            Próxima
+            Next
           </button>
         </Link>
       </div>
